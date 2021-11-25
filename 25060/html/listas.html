@@ -1,0 +1,157 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Listas en html</title>
+	<style type="text/css">
+		*{
+			margin:0;
+			padding: 0;
+		}
+		dt{
+			font-weight: bold;
+			font-size: 24px;
+			color:#F52549
+		}
+		h1{
+			font-size: 48px;
+			color: #2d4262;
+		}
+		h2{
+			font-size: 36px;
+			color:#34888c;
+		}
+		header,nav,main,footer{
+			width: 960px;
+			/*height:100px*/
+			background-color: #FFE76D;
+			padding:50px;
+			margin: 0 auto;
+		}
+		header{
+			text-align: center;
+		}
+		nav{
+			background-color: #FA6775;
+			height: 50px;
+		}
+		main{
+			background-color: #E64399;
+			height: auto;
+		}
+		footer{
+			background-color:#FA6775;
+			height: 60px;
+		}
+		section{
+			width: 760px;
+			height: auto;
+			background-color: #FFD64D;
+			margin: 20px;
+			padding: 20px 20px;
+		}
+		ul,ol{
+			margin: 50px;
+		}
+		dt{
+			margin: 10px;
+		}
+		dd{
+			margin:20px 50px;
+		}
+		footer{
+			text-align: center;
+		}
+		h4{
+			color: black;
+		}
+	</style>
+</head>
+
+<body>
+	<header>
+		<h1>LISTAS EN HTML</h1>
+	</header>
+	<nav></nav>
+	<main>
+		<section>
+		<h2>Lista desordenada o de viñeta</h2>
+			<ul>
+			<li>México</li>
+			<li>España</li>
+			<li>Argentina</li>
+			<li>Guatemala</li>
+			<li>Italia</li>
+			</ul>
+		</section>
+		<section>
+			<h2>Lista ordenada o con viñeta numerada</h2>
+			<ol>
+			<li>Grecia</li>
+			<li>Bolivia</li>
+			<li>Canadá</li>
+			<li>Australia</li>
+			<li>México</li>
+			</ol>
+		</section>
+		<section>
+		<h2>Lista mixta</h2>
+			<ul>
+			<li>México
+				<ol>
+					<li>Puebla</li>
+					<li>Veracruz</li>
+					<li>Chiapas</li>
+					<li>Colima</li>
+				</ol>
+				</li>
+			<li>España</li>
+				<ol>
+					<li>Madrid</li>
+					<li>Barcelona</li>
+					<li>Sevilla</li>
+					<li>Málaga</li>
+				</ol>
+			<li>Italia
+				<ol>
+					<li>Milán</li>
+					<li>Turín</li>
+					<li>Verona</li>
+					<li>Palermo</li>
+				</ol>
+			</li>
+			</ul>
+		</section>
+		<section>
+		<h2>Lista de descripción</h2>
+			<dl>
+				<dt>Hosting</dt>
+				<dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et expedita ab laudantium, ratione optio recusandae similique adipisci praesentium vero totam.
+				</dd>
+				<dt style="font-style:italic">Dominio</dt>
+				<dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae velit, deleniti ducimus tempore atque earum possimus eveniet itaque, quis ea.
+				</dd>
+				<dt style="font-weight:normal">Sitio web</dt>
+				<dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis molestiae quo reprehenderit, pariatur enim soluta officiis a necessitatibus temporibus laborum.
+				</dd>
+				<dt>Sistema web</dt>
+				<dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum reprehenderit ducimus ratione ea quaerat hic molestias temporibus quam perspiciatis. Cupiditate.
+				</dd>
+			</dl>
+		</section>
+		<section>
+		<h2>Lista con viñeta de imagen</h2>
+		<ul style="list-style-image: url('../huella.png')">
+			<li>Maria Gomez</li>
+			<li>Juan Hernández</li>
+			<li>Guadalupe Guerrero</li>
+			<li>Daniel Osorio</li>
+			<li>Mónica Pérez</li>
+		</ul>
+		</section>
+	</main>
+	<footer>
+	<h4>Elaborado por Denisse Rodríguez López</h4>
+	</footer>
+</body>
+</html>
