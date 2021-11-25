@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>video</title>
+<link href="../css/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<header>
+	  <h1>VIDEOS EN HTML</h1>
+	</header>
+<nav>
+		<ul>
+			<li id="link-1"><a href="mi_primera_pagina_estilomenu.html">Mi primera página</a></li>
+			<li id="link-2"><a href="TABLAS_menu.html">Tablas</a></li>
+			<li id="link-3"><a href="listas_menu.html">Listas</a></li>
+			<li id="link-4"><a href="enlaces.html">Enlaces</a></li>
+			<li id="link-5"><a href="imagenes.html">Imagenes</a></li>
+			<li id="link-6"><a href="audio.html">Audio</a></li>
+			<li id="link-7"><a href="video.html">Video</a></li>
+			<li id="link-8"><a href="formularios.html">Formularios</a></li>
+		</ul>
+		<ul>
+		<li><a href="#link-9">Video simple</a></li>
+		<li><a href="#link-10">Video reproducción cílica</a></li>
+		<li><a href="#link-11">Video con poster</a></li>
+		<li><a href="#link-12">Video repertorio web Youtube</a></li>
+		<li><a href="#link-13">Video repertorio web Vimeo</a></li>
+  		</ul>
+	</nav>
+<main>
+		<section>
+			<h2 id="link-9" class="h2">Inserción de video</h2>
+			<p class="parrafo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque, fugiat!</p>
+			<video controls class="video-size">
+			<source src="../medios/video/pexels-mathias-de-rivo-6738901.mp4" type="video/mp4">
+			<source src="" type="video/webM">
+			<source src="" type="video/ogg">
+				Your browser doesn't support the video tag.
+			</video>
+		</section>
+		<section>
+			<h2 id="link-10" class="h2">Inserción de video con reproducción automática, cíclica,  silenciada y sin controles</h2>
+			<p class="parrafo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, esse.</p>
+            <video class="video-size" muted="muted" autoplay="autoplay" loop="loop" >
+              <source src="../medios/video/production ID_4323285.mp4" type="video/mp4">
+            </video>
+		</section>
+  <section>
+			<h2 id="link-11" class="h2">Inserción de video con poster</h2>
+			<p class="parrafo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, harum?</p>
+            <video width="300" height="168" class="video-size2" poster="../imagenes/descarga2.jpg" controls="controls" >
+              <source src="../medios/video/production ID_4323285.mp4" type="video/mp4">
+            </video>
+		</section>
+  <section>
+            <h2 id="link-12" class="h2">Inserción de video repertorio web: Youtube</h2>
+            <p class="parrafo"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, pariatur!</p>
+	  			<iframe src="https://www.youtube.com/embed/uupSgrlr_4Y" width="560" height="315" frameborder="0" class="video-size" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </section>
+  <section>
+			<h2 id="link-13" class="h2">Inserción de video repertorio web: vimeo</h2>
+			<p class="parrafo">	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, pariatur!</p>
+	  		<iframe src="https://player.vimeo.com/video/16385763?h=7990aa8219" width="640" height="360" frameborder="0" class="video-size" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+		</section>
+</main>
+	<footer>
+	  <h5>Elaborado por Denisse Rodríguez López</h5>
+</footer>
+</body>
+</html>
